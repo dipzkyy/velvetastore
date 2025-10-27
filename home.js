@@ -148,7 +148,7 @@ function openModal(productData) {
   
   // Setup WhatsApp link
   const message = `Halo Velveta! Saya ingin memesan ${productData.name} (${productData.price}). Bisa info lebih lanjut?`;
-  modalOrder.href = `https://wa.me/62857316078441?text=${encodeURIComponent(message)}`;
+  modalOrder.href = `https://wa.me/6285731607844?text=${encodeURIComponent(message)}`;
   
   modal.style.display = 'flex';
   document.body.style.overflow = 'hidden'; // Prevent scrolling
