@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velveta Shop</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+<header>
+  <img src="vl.jpg" alt="Velveta Logo" class="logo" />
+  <h1 id="welcome">Selamat datang di Velveta 💜</h1>
+  <div class="gimmick-container">
+    <p class="gimmick"></p>
+  </div>
+</header>
+
+<section class="products">
+  <h2>Produk Unggulan</h2>
+  <div class="product-grid">
+    <div class="product" data-index="0">
+      <div class="product-image-container">
+        <img src="https://dekayu.id/wp-content/uploads/2023/10/Shine-Hampers-Emerald-2-SQ-scaled.jpg" alt="Hampers Lavender" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Hampers Lavender</p>
+      <div class="price">Rp 299.000</div>
+      <div class="desc">Hadiah cantik dengan nuansa lavender yang elegan dan menenangkan.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+    
+    <div class="product" data-index="1">
+      <div class="product-image-container">
+        <img src="https://img.lazcdn.com/g/ff/kf/Sf80cd2329cbc4749ba6904e794835352k.jpg_720x720q80.jpg" alt="Giftbox Royal" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Giftbox Royal</p>
+      <div class="price">Rp 450.000</div>
+      <div class="desc">Kotak hadiah mewah yang sempurna untuk acara spesial dan berkelas.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+    
+    <div class="product" data-index="2">
+      <div class="product-image-container">
+        <img src="https://blog.aromamedan.com/wp-content/uploads/2024/03/Referensi-Hampers-Lebaran-Isi-Hampers-Premium.jpg" alt="Ungu Manis" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Ungu Manis</p>
+      <div class="price">Rp 189.000</div>
+      <div class="desc">Sentuhan manis warna ungu yang memberikan kehangatan dan kesan elegan.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+    
+    <div class="product" data-index="3">
+      <div class="product-image-container">
+        <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/78/2025/03/21/Ide-Hampers-2971598288.jpg" alt="Velvet Treat" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Velvet Treat</p>
+      <div class="price">Rp 375.000</div>
+      <div class="desc">Paket hadiah mewah dengan sentuhan velvet yang lembut dan elegan.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+    
+    <div class="product" data-index="4">
+      <div class="product-image-container">
+        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-ln3x7j9i5lrq3e" alt="Luxury Box" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Luxury Box</p>
+      <div class="price">Rp 525.000</div>
+      <div class="desc">Kotak hadiah eksklusif yang memberikan kesan mewah dan istimewa.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+    
+    <div class="product" data-index="5">
+      <div class="product-image-container">
+        <img src="https://cf.shopee.co.id/file/a540e539f816ee7f0898f711344eaf36" alt="Purple Bliss" />
+        <div class="product-overlay">
+          <span class="view-details">👁️ Lihat Detail</span>
+        </div>
+      </div>
+      <p>Purple Bliss</p>
+      <div class="price">Rp 275.000</div>
+      <div class="desc">Kombinasi warna ungu yang mempesona, cocok untuk setiap momen spesial.</div>
+      <button class="quick-order">💜 Quick Order</button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal Popup Produk -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="modalClose">&times;</span>
+    <img id="modalImg" src="" alt="Product Image" />
+    <h3 id="modalName"></h3>
+    <div class="modal-price" id="modalPrice"></div>
+    <p id="modalDesc"></p>
+    <a id="modalOrder" href="#" target="_blank" class="order-btn">💜 Order via WhatsApp</a>
+  </div>
+</div>
+
+<!-- Loading Indicator -->
+<div class="loading" id="loading">
+  <div class="loading-content">
+    <img src="vl.jpg" alt="Velveta Logo" class="loading-logo" />
+    <h2 class="loading-text">Velveta Store</h2>
+    <div class="loading-spinner"></div>
+  </div>
+</div>
+
+<footer>
+  <p>Ikuti kami di:</p>
+  <a href="https://www.instagram.com/velveta.store.1?igsh=MWZyc2hibmk5ajN4ag==" target="_blank">📸 Instagram</a>
+  <a href="https://www.tiktok.com/@velvetstore.1?_t=ZS-90twuT4ifbd&_r=1" target="_blank">🎵 TikTok</a>
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>
