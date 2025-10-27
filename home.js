@@ -146,7 +146,7 @@ function openModal(productData) {
   modalPrice.textContent = productData.price;
   modalDesc.textContent = productData.desc;
   
-  // Setup WhatsApp link
+  // Setup WhatsApp link - NOMOR DIUBAH KE YANG BENAR
   const message = `Halo Velveta! Saya ingin memesan ${productData.name} (${productData.price}). Bisa info lebih lanjut?`;
   modalOrder.href = `https://wa.me/6285731607844?text=${encodeURIComponent(message)}`;
   
@@ -155,6 +155,7 @@ function openModal(productData) {
 }
 
 function quickOrder(productData) {
+  // NOMOR DIUBAH KE YANG BENAR - auto text sama seperti sebelumnya
   const message = `Halo Velveta! Saya ingin segera memesan ${productData.name} (${productData.price}). Mohon proses ordernya!`;
   window.open(`https://wa.me/6285731607844?text=${encodeURIComponent(message)}`, '_blank');
 }
